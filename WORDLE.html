@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORDLE</title>
+    <link rel="stylesheet" href="WORDLE.css">
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css">
+</head>
+
+<body>
+    <h2 class="titul">
+        WOORDLE CATALAN
+    </h2>
+
+    <div id="juego">
+        <div class="woordle">
+            <div class="celda" aria-disabled="false"></div>
+            <div class="celda" aria-disabled="false"></div>
+            <div class="celda" aria-disabled="false"></div>
+            <div class="celda" aria-disabled="false"></div>
+            <div class="celda" aria-disabled="false"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+            <div class="celda" aria-disabled="true"></div>
+        </div>
+
+        <div id="teclado">
+            <div id="teclatfila1">
+                <div data-tecla="Q" class="tecla">Q</div>
+                <div data-tecla="W" class="tecla">W</div>
+                <div data-tecla="E" class="tecla">E</div>
+                <div data-tecla="R" class="tecla">R</div>
+                <div data-tecla="T" class="tecla">T</div>
+                <div data-tecla="Y" class="tecla">Y</div>
+                <div data-tecla="U" class="tecla">U</div>
+                <div data-tecla="I" class="tecla">I</div>
+                <div data-tecla="O" class="tecla">O</div>
+                <div data-tecla="P" class="tecla">P</div>
+            </div>
+
+            <div id="teclatfila2">
+                <div data-tecla="A" class="tecla">A</div>
+                <div data-tecla="S" class="tecla">S</div>
+                <div data-tecla="D" class="tecla">D</div>
+                <div data-tecla="F" class="tecla">F</div>
+                <div data-tecla="G" class="tecla">G</div>
+                <div data-tecla="H" class="tecla">H</div>
+                <div data-tecla="J" class="tecla">J</div>
+                <div data-tecla="K" class="tecla">K</div>
+                <div data-tecla="L" class="tecla">L</div>
+                <div data-tecla="Ç" class="tecla">Ç</div>
+            </div>
+
+            <div id="teclatfila3">
+                <div data-tecla="enter" class="tecla">ENTER</div>
+                <div data-tecla="Z" class="tecla">Z</div>
+                <div data-tecla="X" class="tecla">X</div>
+                <div data-tecla="C" class="tecla">C</div>
+                <div data-tecla="V" class="tecla">V</div>
+                <div data-tecla="B" class="tecla">B</div>
+                <div data-tecla="N" class="tecla">N</div>
+                <div data-tecla="M" class="tecla">M</div>
+                <div data-tecla="backspace" class="tecla">BCK</div>
+            </div>
+        </div>
+
+        <div class="reiniciar" onclick="location.reload()">REINICIAR</div>
+    </div>
+
+    <script src="WORDLE.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>
